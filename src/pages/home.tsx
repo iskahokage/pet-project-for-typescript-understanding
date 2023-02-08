@@ -57,7 +57,8 @@ const Home: React.FC = () => {
                     <NavLink to={"/users"} className="mr-5">
                         Users
                     </NavLink>
-                    <NavLink to={"/todos"}>Todos</NavLink>
+                    <NavLink to={"/todos"} className='mr-5'>Todos</NavLink>
+                    <NavLink to={"/fav"}>Favourites</NavLink>
                 </nav>
             </div>
             <h1>This project is for TypeScript understanding</h1>

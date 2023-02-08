@@ -1,6 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Favourites from "./pages/Favourites";
 import Home from "./pages/home";
 import TodoPage from "./pages/TodoPage";
 import UserPage from "./pages/UserPage";
@@ -14,6 +15,7 @@ const Router = () => {
                     <Route path={"/"} element={<Home />} />
                     <Route path={"/users"} element={<UserPage />} />
                     <Route path={"/todos"} element={<TodoPage />} />
+                    <Route path={"/fav"} element={<Favourites />} />
                 </Routes>
             </BrowserRouter>
         </Provider>
